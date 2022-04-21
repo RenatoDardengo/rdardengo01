@@ -1,7 +1,11 @@
 //edição feita via terminal
 let num1 = 50;
-let num2 = 20;
+let num2 = 205;
 
-let soma = num1+num2
-console.log (soma)
 
+
+function somar(n1,n2){
+	return n1+n2
+}
+
+console.log(somar(80,20))
